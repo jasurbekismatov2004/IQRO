@@ -1,0 +1,53 @@
+@import 'variables';
+
+.text {
+    @each $key, $val in $font-size {
+      &-#{$key} {
+        font-size: $val;
+      }
+    }
+  }
+
+/* Small (sm) */
+@media (min-width: $sm) {
+    .sm\:text {
+        @each $key, $val in $font-size {
+          &-#{$key} {
+            font-size: $val;
+          }
+        }
+      }
+ }
+
+/* Medium (md) */
+@media (min-width: $md) { 
+    .md\:text {
+        @each $key, $val in $font-size {
+          &-#{$key} {
+            font-size: $val;
+          }
+        }
+      }
+ }
+
+/* Large (lg) */
+@media (min-width: $lg) { 
+    .lg\:text {
+        @each $key, $val in $font-size {
+          &-#{$key} {
+            font-size: $val;
+          }
+        }
+      }
+ }
+
+/* Extra Large (xl) */
+@media (min-width: $xl) { 
+    .xl\:text {
+        @each $key, $val in $font-size {
+          &-#{$key} {
+            font-size: $val;
+          }
+        }
+      }
+ }

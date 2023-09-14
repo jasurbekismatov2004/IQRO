@@ -1,0 +1,224 @@
+.section {
+    background-image: linear-gradient(120deg, rgba(19, 26, 21, 1) 20%, rgba(21, 190, 159, 0.8) 100%);
+    width: 100%;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.section-img {
+    position: absolute;
+    right: 0;
+    width: 1700px;
+    height: 2900px;
+
+}
+
+.section-card {
+    height: 270px;
+    border-bottom-right-radius: 100px;
+    background: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+
+    border: 2px solid;
+    padding: 20px;
+    margin-top: 15px;
+
+    border-image-source: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%);
+
+
+}
+
+.section-card h1{
+    font-size: 45px;
+}
+
+.section-card h4{
+    font-size: 16px;
+
+}
+
+
+.ccc-6 button {
+    width: 240px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 50px;
+    border: 0 solid;
+    background-color: white;
+}
+
+.ccc-4 img {
+    width: 80px;
+}
+
+.ccc-4 h3 {
+    margin-left: 30px;
+    color: white;
+}
+
+.ccc-5 button {
+    width: 530px;
+    height: 80px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.ccc-13 {
+    margin-top: 100px;
+}
+
+.section-row {
+    background: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) -0.85%, rgba(255, 255, 255, 0) 104.91%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+
+    border: 2px solid white;
+
+    border-radius: 25px;
+    position: relative;
+
+    margin-top: 100px;
+
+
+}
+
+.section-work-img {
+    width: 83px;
+    height: 83px;
+}
+
+.ccc-14 {
+    color: white;
+    background: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.ccc-15 {
+    color: white;
+}
+
+.section-work-text {
+    font-family: Gilroy;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-left: 30px;
+
+}
+
+.ccc-7 {
+    background: linear-gradient(150.02deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 112.71%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.79%, rgba(255, 255, 255, 0.024) 123.08%);
+    border: 2px solid;
+
+    border-image-source: linear-gradient(150.02deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 112.71%);
+
+    position: relative;
+    border-radius: 25px;
+    margin-top: 40px;
+    padding: 40px 55px;
+}
+.ccc-7 h2{
+    font-size: 25px;
+}
+
+.ccc-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ccc-9 {
+    background: linear-gradient(150.02deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 112.71%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.79%, rgba(255, 255, 255, 0.024) 123.08%);
+    border: 2px solid;
+
+    border-image-source: linear-gradient(150.02deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 112.71%);
+
+    position: relative;
+    border-radius: 20px;
+    margin-right: 0;
+    margin-top: 120px;
+}
+
+.ccc-11 {
+    font-size: 30px;
+    color: white;
+}
+
+.ccc-9 h1 {
+    font-size: 50px;
+}
+
+.ccc-17 {
+    margin-top: 20px;
+}
+
+.ccc-10 {
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+
+.ccc-12 {
+    color: white;
+    font-size: 20px;
+}
+
+.regstr-card {
+    padding: 40px 27px;
+    border-radius: 20px;
+    background-color: black;
+
+}
+
+.carousel-status{
+    display: none;
+}
+
+.regstr-card p {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.regstr-card h3 {
+    font-family: Gilroy;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.send-button {
+    margin-top: 115px;
+}
+
+.accept-button {
+    padding: 24px 40px 24px 40px;
+    border-radius: 80px;
+    margin-top: 100px;
+
+}
+.control-dots{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .section-head{
+        display: none;
+    }
+}
+
+

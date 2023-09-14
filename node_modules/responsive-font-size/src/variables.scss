@@ -1,0 +1,33 @@
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+
+$size-xs: .75rem;
+$size-sm: .875rem;
+$size-tiny: .875rem;
+$size-base: 1rem;
+$size-lg: 1.125rem;
+$size-xl: 1.25rem;
+$size-2xl: 1.5rem;
+$size-3xl: 1.875rem;
+$size-4xl: 2.25rem;
+$size-5xl: 3rem;
+$size-6xl: 4rem;
+$size-7xl: 5rem;
+
+$font-size: (
+    xs: $size-xs,
+    sm: $size-sm,
+    tiny: $size-tiny,
+    base: $size-base,
+    lg: $size-lg,
+    xl: $size-xl,
+    2xl: $size-2xl,
+    3xl: $size-3xl,
+    4xl: $size-4xl,
+    5xl: $size-5xl,
+    6xl: $size-6xl,
+    7xl: $size-7xl,
+);
+

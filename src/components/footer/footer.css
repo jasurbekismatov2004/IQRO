@@ -1,0 +1,12 @@
+.footer{
+    background: linear-gradient(180deg, #131A15 0%, #090B3A 100%);
+    width: 100%;
+
+    position: relative;
+}
+.bg-footer{
+    background-image: linear-gradient(90deg, rgba(0, 159, 143, 0.8), transparent 30%, transparent 70%, rgba(0, 159, 143, 0.8) 100%);
+
+}
+
+

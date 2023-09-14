@@ -1,0 +1,41 @@
+
+
+@media screen and (max-width: 769px){
+    .nav{
+        position: fixed;
+        top: 0;
+        right: -300px;
+        display: block;
+        background-color: white;
+        height: 100vh;
+        z-index: 10;
+
+
+
+    }
+    .nav.active{
+        right: 0;
+
+    }
+    .nav-link{
+        margin: 0;
+        display: block;
+        font-size: 20px;
+        color: black !important;
+    }
+    .nav-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-icon{
+        display: block;
+    }
+    .nav-icon-black{
+        width: 75px;
+
+        margin:20px auto;
+    }
+
+
+
+}
